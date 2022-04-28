@@ -4,7 +4,7 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = "React Avançado!" }: Props) {
+export default function Home({ title = 'React Avançado!' }: Props) {
   return (
     <div>
       <Head>
@@ -14,9 +14,7 @@ export default function Home({ title = "React Avançado!" }: Props) {
       </Head>
 
       <main>
-        <h1>
-          {title}
-        </h1>
+        <h1>{title}</h1>
       </main>
     </div>
   )
